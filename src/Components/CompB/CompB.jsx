@@ -4,7 +4,7 @@ const CompB = ({setValue,value}) => {
     const [status,setStatus]=useState(true)
     const handleInc=()=>{
         setStatus(false)
-        setValue((prevval)=>prevval+1);
+        setValue((value)=>value+1);
     }
     const handleDec=()=>{
         if(value>0){
